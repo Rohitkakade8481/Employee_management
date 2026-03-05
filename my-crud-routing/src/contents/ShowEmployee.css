@@ -1,0 +1,65 @@
+/* Page heading */
+.employee-title {
+  margin: 20px 0;
+  color: #1e293b;
+}
+
+/* Table styling */
+.employee-table {
+  width: 80%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0px 8px 20px rgba(30, 58, 138, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table header */
+.employee-table thead {
+  background: #4f46e5;     /* indigo */
+  color: #ffffff;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Table rows */
+.employee-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.employee-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+/* Action buttons */
+.btn-edit {
+  background: #2563eb;     /* blue */
+  color: #ffffff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-delete {
+  background: #dc2626;     /* red */
+  color: #ffffff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effects */
+.btn-edit:hover {
+  background: #1d4ed8;
+}
+
+.btn-delete:hover {
+  background: #b91c1c;
+}

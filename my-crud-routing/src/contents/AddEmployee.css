@@ -1,0 +1,57 @@
+
+
+/* Form container */
+.employee-container {
+  width: 350px;
+  background: #f9fafb;              /* soft white */
+  padding: 25px;
+  margin: 80px auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px rgba(30, 58, 138, 0.15); /* bluish shadow */
+  text-align: center;
+}
+
+/* Heading */
+.employee-container h2 {
+  margin-bottom: 20px;
+  color: #1e293b;                  /* dark slate */
+}
+
+/* Input fields */
+.employee-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #c7d2fe;       /* light blue border */
+  font-size: 14px;
+  background: #ffffff;
+}
+
+/* Input focus */
+.employee-container input:focus {
+  outline: none;
+  border-color: #4f46e5;           /* indigo */
+  box-shadow: 0 0 0 2px #c7d2fe;
+}
+
+/* Button */
+.employee-container button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #4f46e5;             /* indigo button */
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Button hover */
+.employee-container button:hover {
+  background: #4338ca;             /* darker indigo */
+  transform: translateY(-1px);
+}
+
